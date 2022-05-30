@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/showcase.jpg);
+  background-color: #3e2f40;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #3e2f40;
+  height: 50px;
+  align-items: center;
+  opacity: 0.8;
+}
+#brand-name {
+  margin-left: 20px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
+.header-container ul li a {
+  color: black;
+  font-size: 20px;
+  margin-right: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+li a:hover {
+  background-color: #3e2f40;
+  color: black;
+  border-radius: 10px;
+  padding: 15px;
+}
+.main-content {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 3px solid blue;
+  padding: 5px;
+}
+.main-content div {
+  margin: 20px;
+}
